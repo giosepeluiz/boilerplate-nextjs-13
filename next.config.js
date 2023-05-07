@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  i18n: {
+  /* i18n: {
     locales: ["pt-br"],
     defaultLocale: "pt-br",
-  },
+  }, */
   env: {
     EXAMPLE: process.env.EXAMPLE,
   },
