@@ -34,6 +34,8 @@ Este modelo básico inclui algumas alterações pessoais em relação ao projeto
 
 Por padrão este projeto utiliza o pré-processador SAAS, mas para que as variáveis funcionem corretamente nos estilos dos componentes é importante que carregue a linha `@import "vendor/_defaults"`
 
+> AVISO: O uso do SASS/SCSS torna incompatível com o novo recurso Turbopack do NextJS 13, caso queira usar o recurso, utilize CSS convencional.
+
 ### Breakpoints
 
 Para definir um breakpoint carregue o comando:
