@@ -1,47 +1,18 @@
-import { NextSeo } from "next-seo";
 import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* SEO com personalização - Documentação: https://www.npmjs.com/package/next-seo */}
-      <NextSeo
-        title="Título de Exemplo"
-        description="Descrição de Exemplo"
-        openGraph={{
-          type: "website",
-          url: "https://www.google.com",
-          title: "Título de Exemplo",
-          description: "Descrição de Exemplo",
-          images: [
-            {
-              url: "https://www.example.ie/og-image.jpg",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-            },
-            { url: "https://www.example.ie/og-image-02.jpg" },
-          ],
-          site_name: "SiteName",
-        }}
-        additionalLinkTags={[
-          {
-            rel: "icon",
-            href: "icons/favicon.ico",
-          },
-        ]}
-      />
-
       {/* Conteúdo principal */}
       <main className={styles.main}>
-        <h1 className={styles.title}>Boilerplate de NextJs</h1>
+        <h1 className={styles.title}>Boilerplate de NextJs 13</h1>
 
         <p className={styles.description}>Template padrão para seu projeto NextJs</p>
 
         <div className={styles.grid}>
           <a
-            href="https://github.com/giosepeluiz/boilerplate-nextjs/blob/main/README.md"
+            href="https://github.com/giosepeluiz/boilerplate-nextjs-13/blob/main/README.md"
             className={styles.card}>
             <h2>Informações &rarr;</h2>
             <p>Para saber como utilizar todos os recursos que o modelo oferece.</p>
@@ -54,6 +25,7 @@ export default function Home() {
             <p>
               - 02 de setembro de 2021
               <br />- 21 de setembro de 2022
+              <br />- 07 de maio de 2023
             </p>
           </a>
         </div>

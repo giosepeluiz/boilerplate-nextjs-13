@@ -1,12 +1,13 @@
-# Modelo básico de Next.js
+# Modelo básico de NextJS 13
 
-Este modelo básico inclui algumas alterações pessoais em relação ao projeto padrão de **Next.js**, dentre elas:
+Este modelo básico inclui algumas alterações pessoais em relação ao projeto padrão de **NextJS**, dentre elas:
 
 - Novo esquema de pastas;
 - Com arquivos pré-configurados;
 - Configurado para Typescript;
 - Eslint e Prettier configurados;
-- Toda a configuração foi feita usando Yarn.
+- Toda a configuração foi feita usando Yarn;
+- Versão atualizada para NextJS 13.
 
 ## Esquema de Pastas
 
@@ -65,14 +66,7 @@ Existem variáveis com z-index pré-definidos, para isso utilize, sem aspas, o p
 
 ### Caminhos Absolutos (Absolute Paths)
 
-O arquivo `tsconfig.json` inclui alguns caminhos absolutos para importação de arquivos, todos iniciados por `@`, o que evita a utilização de `../../<arquivo>` ao importar um arquivo. Ao criar mais pastas, **é importante que atualize o arquivo** com novos caminhos absolutos.
-
-- **@/components/** = pasta de componentes
-- **@/data/** = pasta de dados
-- **@/functions/** = pasta de funções
-- **@/models/** = pasta de modelos
-- **@/pages/** = pasta de páginas
-- **@/styles/** = pasta de estilos
+Para facilitar a importação de módulos, componentes e arquivos, o caminho é totalmente absoluto. Ao importar um arquivo dentro de `./src/...` utilize apenas `@/...`. Isso facilita principalmente quando há pastas aninhadas.
 
 ### Cores Globais
 
@@ -92,4 +86,4 @@ A pasta `@import "vendor/_variables"` conta com outras variáveis de medida e pa
 
 ---
 
-Última alteração em **06 de novembro de 2022**.
+Última alteração em **07 de maio de 2023**.

@@ -1,6 +1,5 @@
 @import "vendor/_defaults";
 
-
 .container {
   min-height: 100vh;
   padding: 0 rem(8);
@@ -23,24 +22,24 @@
     color: var(--color-s1-secondary);
     text-decoration: none;
   }
-  
+
   .title a:hover,
   .title a:focus,
   .title a:active {
     text-decoration: underline;
   }
-  
+
   .title {
     margin: 0;
     line-height: 1.15;
     font-size: rem(64);
   }
-  
+
   .title,
   .description {
     text-align: center;
   }
-  
+
   .description {
     line-height: 1.5;
     font-size: rem(24);
@@ -63,7 +62,7 @@
     flex-direction: column;
   }
 
-  @include breakpoint('small-up'){
+  @include breakpoint("small-up") {
     .grid {
       width: 100%;
       flex-direction: row;
@@ -80,28 +79,26 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     width: 45%;
-  
   }
 
-  @include breakpoint('small-up'){
+  @include breakpoint("small-up") {
     .card {
-      width: 30%;
-      height: 100%;
+      width: 300px;
     }
   }
-  
+
   .card:hover,
   .card:focus,
   .card:active {
     color: var(--color-s1-secondary);
     border-color: var(--color-s1-secondary);
   }
-  
+
   .card h2 {
     margin: 0 0 rem(16) 0;
     font-size: rem(24);
   }
-  
+
   .card p {
     margin: 0;
     font-size: rem(20);
@@ -131,5 +128,3 @@
     margin-left: rem(8);
   }
 }
-
-
