@@ -13,11 +13,11 @@ Este modelo básico inclui algumas alterações pessoais em relação ao projeto
 
 **SRC:** esta pasta inclui todas as partes do projeto, organizados por:
 
+- App: as páginas do projeto;
 - Components: arquivos de componentes;
 - Data: arquivos de dados em formato JSON;
 - Functions: funções para a parte lógica;
 - Models: classes utilizadas como modelos;
-- Pages: as páginas do projeto;
 - Styles: todos os estilos em SASS.
 
 **PUBLIC:** contem tudo aquilo que será de acesso público:
