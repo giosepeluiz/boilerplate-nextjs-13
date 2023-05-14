@@ -1,13 +1,13 @@
-# Modelo básico de NextJS 13
+# Modelo básico de Next.js 13
 
-Este modelo básico inclui algumas alterações pessoais em relação ao projeto padrão de **NextJS**, dentre elas:
+Este modelo básico inclui algumas alterações pessoais em relação ao projeto padrão de **Next.js**, dentre elas:
 
 - Novo esquema de pastas;
 - Com arquivos pré-configurados;
 - Configurado para Typescript;
 - Eslint e Prettier configurados;
 - Toda a configuração foi feita usando Yarn;
-- Versão atualizada para NextJS 13.
+- Versão atualizada para Next.js 13.
 
 ## Esquema de Pastas
 
@@ -34,7 +34,7 @@ Este modelo básico inclui algumas alterações pessoais em relação ao projeto
 
 Por padrão este projeto utiliza o pré-processador SAAS, mas para que as variáveis funcionem corretamente nos estilos dos componentes é importante que carregue a linha `@import "vendor/_defaults"`
 
-> AVISO: O uso do SASS/SCSS torna incompatível com o novo recurso Turbopack do NextJS 13, caso queira usar o recurso, utilize CSS convencional.
+> AVISO: O uso do SASS/SCSS torna incompatível com o novo recurso Turbopack do Next.js 13, caso queira usar o recurso, utilize CSS convencional.
 
 ### Breakpoints
 
