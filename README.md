@@ -13,8 +13,7 @@ Este modelo básico inclui algumas alterações pessoais em relação ao projeto
 
 ## Esquema de Pastas
 
-<br/>
-**SRC:** esta pasta inclui todas as partes do projeto, organizados por:
+<br/><b>SRC:</b> esta pasta inclui todas as partes do projeto, organizados por:
 
 <ul>
   <li>App: as páginas do projeto;</li>
@@ -25,8 +24,7 @@ Este modelo básico inclui algumas alterações pessoais em relação ao projeto
   <li>Styles: todos os estilos em SASS.</li>
 </ul>
 
-<br />
-**PUBLIC:** contem tudo aquilo que será de acesso público:
+<br /><b>PUBLIC:</b> contem tudo aquilo que será de acesso público:
 
 <ul>
   <li>Icons: ícones a serem utilizados;</li>
