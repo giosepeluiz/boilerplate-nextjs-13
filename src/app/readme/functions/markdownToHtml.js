@@ -15,7 +15,7 @@ export function markdownToHtml(markdown, style) {
   // Substituição de listas
   html = html.replace(/^\* (.*$)/gm, "<li>$1</li>");
   html = html.replace(/<\/li>\n\n<li>/g, "</li><li>");
-  html = html.replace(/(<li>.*<\/li>)/s, `<ul className=${style.list}>$1</ul>`);
+  html = html.replace(/(<li>.*<\/li>)/s, `<ul>$1</ul>`);
 
   // Substituição de crase tripla por bloco de código
   html = html.replace(/```(.+?)```/gs, "<pre><code>$1</code></pre>");

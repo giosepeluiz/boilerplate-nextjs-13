@@ -1,40 +1,39 @@
 // ==========================================================================
-// Color Scheme 1 Name
+// Esquema de cores do projeto
 // ==========================================================================
 
-$schema-1: (
-  "s1-primary": #157bad,
-  "s1-secondary": #06618c,
-  "s1-success": #3cc368,
-  "s1-warning": #f5a600,
-  "s1-error": #ec5840,
-  "s1-black": #000000,
-  "s1-gray-1": #363636,
-  "s1-gray-2": #4f4f4f,
-  "s1-gray-3": #828282,
-  "s1-gray-4": #bdbdbd,
-  "s1-gray-5": #e0e0e0,
-  "s1-gray-6": #f0f0f0,
-  "s1-white": #fcfcfc,
+$project: (
+  "primary": #157bad,
+  "primary-dark": darken(#157bad, 20%),
+  "secondary": #06618c,
 );
 
 :root {
-  @each $name, $color in $schema-1 {
+  @each $name, $color in $project {
     --color-#{$name}: #{$color};
   }
 }
 
 // ==========================================================================
-// Color Scheme 2 Name
+// Esquema de cores padrão
 // ==========================================================================
 
-$schema-2: (
-  "s2-primary": #3da6c8,
-  "s2-secondary": darken(#3da6c8, 12%),
+$defaults: (
+  "success": #3cc368,
+  "warning": #f5a600,
+  "error": #ec5840,
+  "black": #000000,
+  "gray-1": #363636,
+  "gray-2": #4f4f4f,
+  "gray-3": #828282,
+  "gray-4": #bdbdbd,
+  "gray-5": #e0e0e0,
+  "gray-6": #f0f0f0,
+  "white": #fcfcfc,
 );
 
 :root {
-  @each $name, $color in $schema-2 {
+  @each $name, $color in $defaults {
     --color-#{$name}: #{$color};
   }
 }
@@ -43,17 +42,20 @@ $schema-2: (
 // Social Media Colors
 // ==========================================================================
 
-$social-media-colors: (
+$social-media: (
   "facebook": #3b5998,
   "twitter": #00aced,
   "linkedin": #0077b5,
   "youtube": #cd201f,
   "instagram": #e4405f,
   "github": #333,
+  "telegram": #0088cc,
+  "vk": #45668e,
+  "tiktok": #69c9d0,
 );
 
 :root {
-  @each $name, $color in $social-media-colors {
+  @each $name, $color in $social-media {
     --color-#{$name}: #{$color};
   }
 }
