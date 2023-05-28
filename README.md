@@ -98,4 +98,4 @@ A pasta `@import "vendor/_variables"` conta com outras variáveis de medida e pa
 
 ---
 
-Última alteração em **07 de maio de 2023**.
+Última alteração em **28 de maio de 2023**.

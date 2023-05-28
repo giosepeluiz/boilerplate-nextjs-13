@@ -33,6 +33,10 @@
     margin: 0;
     line-height: 1.15;
     font-size: rem(64);
+
+    @include breakpoint("medium-only") {
+      font-size: rem(40);
+    }
   }
 
   .title,
@@ -43,6 +47,10 @@
   .description {
     line-height: 1.5;
     font-size: rem(24);
+
+    @include breakpoint("medium-only") {
+      font-size: rem(20);
+    }
 
     .code {
       background: var(--color-s1-white);
@@ -60,10 +68,8 @@
     max-width: 800px;
     margin-top: rem(48);
     flex-direction: column;
-  }
 
-  @include breakpoint("small-up") {
-    .grid {
+    @include breakpoint("small-up") {
       width: 100%;
       flex-direction: row;
     }
@@ -79,10 +85,8 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     width: 45%;
-  }
 
-  @include breakpoint("small-up") {
-    .card {
+    @include breakpoint("small-up") {
       width: 300px;
     }
   }
@@ -99,7 +103,8 @@
     font-size: rem(24);
   }
 
-  .card p {
+  .card p,
+  ul > li {
     margin: 0;
     font-size: rem(20);
     line-height: 1.5;

@@ -1,7 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
+import Link from "next/link";
+import useWindowWidth from "@/components/useWindowWidth.jsx";
 
 export default function Home() {
+  const { windowWidth } = useWindowWidth();
+
   return (
     <div className={styles.container}>
       {/* Conteúdo principal */}
@@ -11,23 +17,23 @@ export default function Home() {
         <p className={styles.description}>Template padrão para seu projeto NextJs</p>
 
         <div className={styles.grid}>
-          <a
-            href="https://github.com/giosepeluiz/boilerplate-nextjs-13/blob/main/README.md"
-            className={styles.card}>
+          <Link href="/readme" className={styles.card} prefetch={false}>
             <h2>Informações &rarr;</h2>
             <p>Para saber como utilizar todos os recursos que o modelo oferece.</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://github.com/giosepeluiz/boilerplate-nextjs/commits/main"
-            className={styles.card}>
+            className={styles.card}
+            prefetch={false}>
             <h2>Atualizações &rarr;</h2>
-            <p>
-              - 02 de setembro de 2021
-              <br />- 21 de setembro de 2022
-              <br />- 07 de maio de 2023
-            </p>
-          </a>
+
+            <ul>
+              <li>02{windowWidth && windowWidth < 600 ? "/09/" : " de setembro de "}2021</li>
+              <li>21{windowWidth && windowWidth < 600 ? "/09/" : " de setembro de "}2022</li>
+              <li>07{windowWidth && windowWidth < 600 ? "/05/" : " de maio de "}2023</li>
+            </ul>
+          </Link>
         </div>
       </main>
 
