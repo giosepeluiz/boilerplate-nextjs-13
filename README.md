@@ -2,12 +2,14 @@
 
 Este modelo básico inclui algumas alterações pessoais em relação ao projeto padrão de **Next.js**, dentre elas:
 
-- Novo esquema de pastas;
-- Com arquivos pré-configurados;
-- Configurado para Typescript;
-- Eslint e Prettier configurados;
-- Toda a configuração foi feita usando Yarn;
-- Versão atualizada para Next.js 13.
+<ul>
+<li> Novo esquema de pastas;</li>
+<li> Com arquivos pré-configurados;</li>
+<li> Configurado para Typescript;</li>
+<li> Eslint e Prettier configurados;</li>
+<li> Toda a configuração foi feita usando Yarn;</li>
+<li> Versão atualizada para Next.js 13.</li>
+<ul>
 
 ## Esquema de Pastas
 
