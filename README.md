@@ -9,7 +9,7 @@ Este modelo básico inclui algumas alterações pessoais em relação ao projeto
 <li> Eslint e Prettier configurados;</li>
 <li> Toda a configuração foi feita usando Yarn;</li>
 <li> Versão atualizada para Next.js 13.</li>
-<ul>
+</ul>
 
 ## Esquema de Pastas
 
