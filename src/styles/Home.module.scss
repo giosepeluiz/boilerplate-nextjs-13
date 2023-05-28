@@ -119,6 +119,10 @@
   justify-content: center;
   align-items: center;
 
+  @include breakpoint("medium-only") {
+    padding: rem(20);
+  }
+
   a {
     display: flex;
     justify-content: center;
