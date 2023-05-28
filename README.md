@@ -32,7 +32,7 @@ Este modelo básico inclui algumas alterações pessoais em relação ao projeto
   <li>Vectors: todos os vetores.</li>
 </ul>
 
-> Lembrando que estas pastas podem ser alteradas a vontade de acordo com a necessidade do projeto, este é só um modelo.
+<quote>Lembrando que estas pastas podem ser alteradas a vontade de acordo com a necessidade do projeto, este é só um modelo.</quote>
 
 <br/>
 
