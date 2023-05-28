@@ -12,9 +12,9 @@ export default function Home() {
     <div className={styles.container}>
       {/* Conteúdo principal */}
       <main className={styles.main}>
-        <h1 className={styles.title}>Boilerplate de NextJs 13</h1>
+        <h1 className={styles.title}>Boilerplate de Next.js 13</h1>
 
-        <p className={styles.description}>Template padrão para seu projeto NextJs</p>
+        <p className={styles.description}>Template padrão para seu projeto Next.js</p>
 
         <div className={styles.grid}>
           <Link href="/readme" className={styles.card} prefetch={false}>
