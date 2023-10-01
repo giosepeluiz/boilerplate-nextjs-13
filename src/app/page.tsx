@@ -14,16 +14,19 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Boilerplate de Next.js 13</h1>
 
-        <p className={styles.description}>Template padrão para seu projeto Next.js</p>
+        <p className={styles.description}>Template padrão para seu projeto Next.js v13.5.3</p>
 
         <div className={styles.grid}>
           <Link href="/readme" className={styles.card} prefetch={false}>
             <h2>Informações &rarr;</h2>
-            <p>Para saber como utilizar todos os recursos que o modelo oferece.</p>
+            <p style={{ lineHeight: "34px" }}>
+              Clique aqui para conhecer as variáveis, funções e para saber como utilizar todos os
+              recursos que o modelo oferece.
+            </p>
           </Link>
 
           <Link
-            href="https://github.com/giosepeluiz/boilerplate-nextjs/commits/main"
+            href="https://github.com/giosepeluiz/boilerplate-nextjs-13"
             className={styles.card}
             prefetch={false}>
             <h2>Atualizações &rarr;</h2>
@@ -32,6 +35,7 @@ export default function Home() {
               <li>02{windowWidth && windowWidth < 600 ? "/09/" : " de setembro de "}2021</li>
               <li>21{windowWidth && windowWidth < 600 ? "/09/" : " de setembro de "}2022</li>
               <li>07{windowWidth && windowWidth < 600 ? "/05/" : " de maio de "}2023</li>
+              <li>29{windowWidth && windowWidth < 600 ? "/09/" : " de setembro de "}2023</li>
             </ul>
           </Link>
         </div>
@@ -44,7 +48,7 @@ export default function Home() {
           rel="noopener noreferrer">
           Elaborado por Giosepe Luiz | Powered by{" "}
           <span className={styles.logo}>
-            <Image src="/vectors/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/svg/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>

@@ -40,7 +40,7 @@ Este modelo básico inclui algumas alterações pessoais em relação ao projeto
 
 Por padrão este projeto utiliza o pré-processador SAAS, mas para que as variáveis funcionem corretamente nos estilos dos componentes é importante que carregue a linha `@import "vendor/_defaults"`
 
-> AVISO: O uso do SASS/SCSS torna incompatível com o novo recurso Turbopack do Next.js 13, caso queira usar o recurso, utilize CSS convencional.
+> AVISO: O recurso TurboPack do Next.js 13 vem ativado por padrão, mas pode ser que o uso do SASS/SCSS não seja totalmente compatível. Caso tenha problemas, desative o TurboPack.
 
 ### Breakpoints
 
@@ -98,4 +98,4 @@ A pasta `@import "vendor/_variables"` conta com outras variáveis de medida e pa
 
 ---
 
-Última alteração em **28 de maio de 2023**.
+Última alteração em **29 de setembro de 2023**.

@@ -3,9 +3,12 @@
 // ==========================================================================
 
 $project: (
-  "primary": #157bad,
-  "primary-dark": darken(#157bad, 20%),
-  "secondary": #06618c,
+  "primary-blue": #157bad,
+  "primary-blue-dark": darken(#157bad, 20%),
+  "secondary-blue": #06618c,
+  "primary-green": #519c55,
+  "primary-green-dark": darken(#519c55, 20%),
+  "secondary-green": #1f5c22,
 );
 
 :root {
