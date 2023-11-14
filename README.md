@@ -63,6 +63,12 @@ Onde:
   <li>**large-up** = > 1200px</li>
 </ul>
 
+<ul>
+  <li>**height-small** = Altura até 300px</li>
+  <li>**height-medium** = Altura até 500px</li>
+  <li>**height-large** = Altura até 900px</li>
+</ul>
+
 ### Z-Index
 
 Existem variáveis com z-index pré-definidos, para isso utilize, sem aspas, o padrão: `z-index: z-index(VALOR)`, onde:
